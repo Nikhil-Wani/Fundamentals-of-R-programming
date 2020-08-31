@@ -67,9 +67,10 @@ R programming language is much slower than other programming languages such as M
 In R, algorithms are spread across different packages. The programmers who have no prior knowledge of packages may find it difficult to implement algorithms.
 
 # Install a New Package
+
 In R, there are two techniques to add new R packages. The first technique is installing package directly from the CRAN directory, and the second one is to install it manually after downloading the package to our local system.
 
-Install directly from CRAN
+<b>Install directly from CRAN</b>
 
 The following command is used to get the packages directly from CRAN webpage and install the package in the R environment. We may be prompted to choose the nearest mirror. Choose the one appropriate to our location.
 
@@ -79,7 +80,7 @@ The syntax of installing XML package is as follows:
 
 install.packages("XML")  
 
-Install package manually
+<b>Install package manually</b>
 
 To install a package manually, we first have to download it from https://cran.r-project.org/web/packages/available_packages_by_name.html. The required package will be saved as a .zip file in a suitable location in the local system.
 
