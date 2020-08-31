@@ -201,7 +201,7 @@ There is another type of data objects which can store data in more than two dime
 
 In R, an array is created with the help of array() function. This function takes a vector as an input and uses the value in the dim parameter to create an array.
 
-</b>Matrices</b>
+<b>Matrices</b>
 
 A matrix is an R object in which the elements are arranged in a two-dimensional rectangular layout. In the matrix, elements of the same atomic types are contained. For mathematical calculation, this can use a matrix containing the numeric element. A matrix is created with the help of the matrix() function in R.
 
