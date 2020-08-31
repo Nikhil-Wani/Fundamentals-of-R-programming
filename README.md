@@ -132,7 +132,7 @@ func_name <- function(arg_1, arg_2, ...) {
    Function body   
 }  
 
-<b>omponents of Functions</b>
+<b>components of Functions</b>
 
 There are four components of function, which are as follows:
 
