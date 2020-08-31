@@ -102,14 +102,14 @@ install.packages("C:\Desktop\graphics\xml2_1.2.2.zip", repos = NULL, type = "sou
 
 # Data types
 
-Logical 	True, False 	It is a special data type for data with only two possible values which can be construed as true/false.
+1. Logical 	True, False 	It is a special data type for data with only two possible values which can be construed as true/false.
 
-Numeric	12,32,112,5432	Decimal value is called numeric in R, and it is the default computational data type.
+2. Numeric	12,32,112,5432	Decimal value is called numeric in R, and it is the default computational data type.
 
-Integer	3L, 66L, 2346L	Here, L tells R to store the value as an integer,
+3. Integer	3L, 66L, 2346L	Here, L tells R to store the value as an integer.
 
-Complex	Z=1+2i, t=7+3i	A complex value in R is defined as the pure imaginary value i.
+4. Complex	Z=1+2i, t=7+3i	A complex value in R is defined as the pure imaginary value i.
 
-Character	'a', '"good'", "TRUE", '35.4'	In R programming, a character is used to represent string values. We convert objects into character values with the help ofas.character() function.
+5. Character	'a', '"good'", "TRUE", '35.4'	In R programming, a character is used to represent string values. We convert objects into character values with the help of a s.character() function.
 
-Raw		A raw data type is used to holds raw bytes.
+6. Raw		A raw data type is used to holds raw bytes.
