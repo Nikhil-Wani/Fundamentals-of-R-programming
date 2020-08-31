@@ -113,3 +113,61 @@ install.packages("C:\Desktop\graphics\xml2_1.2.2.zip", repos = NULL, type = "sou
 5. Character	'a', '"good'", "TRUE", '35.4'	In R programming, a character is used to represent string values. We convert objects into character values with the help of a s.character() function.
 
 6. Raw		A raw data type is used to holds raw bytes.
+
+# R Functions
+
+A set of statements which are organized together to perform a specific task is known as a function. R provides a series of in-built functions, and it allows the user to create their own functions. Functions are used to perform tasks in the modular approach.
+
+Functions are used to avoid repeating the same task and to reduce complexity. To understand and maintain our code, we logically break it into smaller parts using the function. A function should be
+
+1. Written to carry out a specified task.
+2. May or may not have arguments
+3. Contain a body in which our code is written.
+4. May or may not return one or more output values.
+"An R function is created by using the keyword function." 
+
+There is the following syntax of R function:
+
+func_name <- function(arg_1, arg_2, ...) {  
+   Function body   
+}  
+
+<b>omponents of Functions</b>
+
+There are four components of function, which are as follows:
+
+1. Function Name
+
+The function name is the actual name of the function. In R, the function is stored as an object with its name.
+
+2. Arguments
+
+In R, an argument is a placeholder. In function, arguments are optional means a function may or may not contain arguments, and these arguments can have default values also. We pass a value to the argument when a function is invoked.
+
+3. Function Body
+
+The function body contains a set of statements which defines what the function does.
+
+4.Return value
+
+It is the last expression in the function body which is to be evaluated.
+
+<b>Function Types</b>
+
+Similar to the other languages, R also has two types of function, i.e. Built-in Function and User-defined Function. In R, there are lots of built-in functions which we can directly call in the program without defining them. R also allows us to create our own functions.
+
+1. Built-in function
+
+The functions which are already created or defined in the programming framework are known as built-in functions. User doesn't need to create these types of functions, and these functions are built into an application. End-users can access these functions by simply calling it. R have different types of built-in functions such as seq(), mean(), max(), and sum(x) etc.
+
+2. User-defined function
+
+R allows us to create our own function in our program. A user defines a user-define function to fulfill the requirement of user. Once these functions are created, we can use these functions like in-built function.
+
+Creating a function without an argument.  
+new.function <- function() {  
+   for(i in 1:10) {  
+      print(i^2)  
+   }  
+}     
+new.function()  
