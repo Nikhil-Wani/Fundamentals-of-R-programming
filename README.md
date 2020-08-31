@@ -189,6 +189,9 @@ R has many data structures, which include:
 
 A vector is the basic data structure in R, or we can say vectors are the most basic R data objects. There are six types of atomic vectors such as logical, integer, character, double, and raw. "A vector is a collection of elements which is most commonly of mode character, integer, logical or numeric" A vector can be one of the following two types:
 
+1. Atomic vector
+2. Lists
+
 <b>List</b>
 
 In R, the list is the container. Unlike an atomic vector, the list is not restricted to be a single mode. A list contains a mixture of data types. The list is also known as generic vectors because the element of the list can be of any type of R object. "A list is a special type of vector in which each element can be a different type."
