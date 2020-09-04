@@ -128,9 +128,9 @@ Functions are used to avoid repeating the same task and to reduce complexity. To
 
 There is the following syntax of R function:
 
-func_name <- function(arg_1, arg_2, ...) {  
+<code>func_name <- function(arg_1, arg_2, ...) {  
    Function body   
-}  
+}  </code>
 
 <b>components of Functions</b>
 
