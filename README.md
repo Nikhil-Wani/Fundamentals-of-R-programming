@@ -128,9 +128,11 @@ Functions are used to avoid repeating the same task and to reduce complexity. To
 
 There is the following syntax of R function:
 
-<code>func_name <- function(arg_1, arg_2, ...) {  
+<code>
+   func_name <- function(arg_1, arg_2, ...) {  
    Function body   
-}  </code>
+} 
+ </code>
 
 <b>components of Functions</b>
 
@@ -165,12 +167,14 @@ The functions which are already created or defined in the programming framework 
 R allows us to create our own function in our program. A user defines a user-define function to fulfill the requirement of user. Once these functions are created, we can use these functions like in-built function.
 
 Creating a function without an argument.  
+<code>
 new.function <- function() {  
    for(i in 1:10) {  
       print(i^2)  
    }  
 }     
 new.function()  
+</code>
 
 # Data Structures
 
