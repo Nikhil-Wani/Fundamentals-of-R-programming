@@ -242,3 +242,30 @@ Factors are created with the help of factor() function by taking a vector as an 
 In R, we can create visually appealing data visualizations by writing few lines of code. For this purpose, we use the diverse functionalities of R. Data visualization is an efficient technique for gaining insight about data through a visual medium. With the help of visualization techniques, a human can easily obtain information about hidden patterns in data that might be neglected.
 
 By using the data visualization technique, we can work with large datasets to efficiently obtain key insights about it.
+
+<b>Graphics</b>
+   
+Graphics play an important role in carrying out the important features of the data. Graphics are used to examine marginal distributions, relationships between variables, and summary of very large data. It is a very important complement for many statistical and computational techniques.
+
+<b>Standard Graphics</b>
+
+R standard graphics are available through package graphics, include several functions which provide statistical plots, like:
+
+Scatterplots
+Piecharts
+Barplots etc.
+
+We use the above graphs that are typically a single function call.
+
+<b>Graphics Devices</b>
+
+It is something where we can make a plot to appear. A graphics device is a window on your computer (screen device), a PDF file (file device), a Scalable Vector Graphics (SVG) file (file device), or a PNG or JPEG file (file device).
+
+There are some of the following points which are essential to understand:
+
+The functions of graphics devices produce output, which depends on the active graphics device.
+A screen is the default and most frequently used device.
+R graphical devices such as the PDF device, the JPEG device, etc. are used.
+We just need to open the graphics output device which we want. Therefore, R takes care of producing the type of output which is required by the device.
+For producing a certain plot on the screen or as a GIF R graphics file, the R code should exactly be the same. We only need to open the target output device before.
+Several devices can be open at the same time, but there will be only one active device.
