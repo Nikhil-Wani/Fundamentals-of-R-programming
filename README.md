@@ -276,6 +276,7 @@ The Pie charts are created with the help of pie () function, which takes positiv
 
 There is the following syntax of the pie() function:
 <code>pie(X, Labels, Radius, Main, Col, Clockwise)</code>
+
 Here,
 1. X is a vector that contains the numeric values used in the pie chart.
 2. Labels are used to give the description to the slices.
@@ -288,6 +289,7 @@ Here,
 
 In R, we can create a bar chart to visualize the data in an efficient manner. For this purpose, R provides the barplot() function, which has the following syntax:
 <code>barplot(h,x,y,main, names.arg,col)</code> 
+
 <pre>
 S.No	Parameter	  Description
 1.	      H	         A vector or matrix which contains numeric values used in the bar chart.
@@ -302,6 +304,7 @@ S.No	Parameter	  Description
 
 For creating a histogram, R provides hist() function, which takes a vector as an input and uses more parameters to add more functionality. There is the following syntax of hist() function:
 <code>hist(v,main,xlab,ylab,xlim,ylim,breaks,col,border)</code>
+
 Here,
 <pre>
 S.No	Parameter	Description
@@ -320,6 +323,7 @@ S.No	Parameter	Description
 
 A line chart is used to connect a series of points by drawing line segments between them. Line charts are used in identifying the trends in data. For line graph construction, R provides plot() function, which has the following syntax:
 <code>plot(v,type,col,xlab,ylab)</code>  
+
 Here,
 <pre>
 S.No	Parameter	Description
@@ -337,7 +341,9 @@ The scatter plots are used to compare variables. A comparison between variables 
 
 There is the following syntax for creating scatterplot in R:
 <code>plot(x, y, main, xlab, ylab, xlim, ylim, axes) </code>
+
 Here,
+
 <pre>
 S.No	Parameters	Description
 1.	      x	         It is the dataset whose values are the horizontal coordinates.
