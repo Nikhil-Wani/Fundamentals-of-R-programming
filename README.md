@@ -290,8 +290,7 @@ Here,
 In R, we can create a bar chart to visualize the data in an efficient manner. For this purpose, R provides the barplot() function, which has the following syntax:
 <code>barplot(h,x,y,main, names.arg,col)</code> 
 
-<pre>
-S.No	Parameter	  Description
+<pre>S.
 1.	      H	         A vector or matrix which contains numeric values used in the bar chart.
 2.	      xlab	      A label for the x-axis.
 3.	      ylab	      A label for the y-axis.
@@ -307,7 +306,6 @@ For creating a histogram, R provides hist() function, which takes a vector as an
 
 Here,
 <pre>
-S.No	Parameter	Description
 1.    	v	         It is a vector that contains numeric values.
 2.	      main	      It indicates the title of the chart.
 3.    	col	      It is used to set the color of the bars.
@@ -326,7 +324,6 @@ A line chart is used to connect a series of points by drawing line segments betw
 
 Here,
 <pre>
-S.No	Parameter	Description
 1.    	v	      It is a vector which contains the numeric values.
 2.	      type	   This parameter takes the value ?I? to draw only the lines or ?p? to draw only the points and "o" to draw both lines and points.
 3.	      xlab	   It is the label for the x-axis.
@@ -344,8 +341,6 @@ There is the following syntax for creating scatterplot in R:
 
 Here,
 
-<pre>
-S.No	Parameters	Description
 1.	      x	         It is the dataset whose values are the horizontal coordinates.
 2.	      y	         It is the dataset whose values are the vertical coordinates.
 3.    	main	      It is the title of the graph.
@@ -354,4 +349,4 @@ S.No	Parameters	Description
 6.	      xlim	      It is the limits of the x values which is used for plotting.
 7.    	ylim	      It is the limits of the values of y, which is used for plotting.
 8.	      axes	      It indicates whether both axes should be drawn on the plot.
-</pre>
+
