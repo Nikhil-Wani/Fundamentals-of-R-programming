@@ -275,6 +275,7 @@ There are some of the following points which are essential to understand:
 The Pie charts are created with the help of pie () function, which takes positive numbers as vector input. Additional parameters are used to control labels, colors, titles, etc.
 
 There is the following syntax of the pie() function:
+
 <code>pie(X, Labels, Radius, Main, Col, Clockwise)</code>
 
 Here,
@@ -290,22 +291,21 @@ Here,
 In R, we can create a bar chart to visualize the data in an efficient manner. For this purpose, R provides the barplot() function, which has the following syntax:
 <code>barplot(h,x,y,main, names.arg,col)</code> 
 
-<pre>S.
 1.	      H	         A vector or matrix which contains numeric values used in the bar chart.
 2.	      xlab	      A label for the x-axis.
 3.	      ylab	      A label for the y-axis.
 4.	      main	      A title of the bar chart.
 5.	      names.arg	A vector of names that appear under each bar.
 6.	      col	      It is used to give colors to the bars in the graph.
-</pre>
+
 
 <b>Histogram</b>
 
 For creating a histogram, R provides hist() function, which takes a vector as an input and uses more parameters to add more functionality. There is the following syntax of hist() function:
+
 <code>hist(v,main,xlab,ylab,xlim,ylim,breaks,col,border)</code>
 
 Here,
-<pre>
 1.    	v	         It is a vector that contains numeric values.
 2.	      main	      It indicates the title of the chart.
 3.    	col	      It is used to set the color of the bars.
@@ -339,12 +339,12 @@ There is the following syntax for creating scatterplot in R:
 
 Here,
 
-1.	      x	         It is the dataset whose values are the horizontal coordinates.
-2.	      y	         It is the dataset whose values are the vertical coordinates.
-3.    	main	      It is the title of the graph.
-4.	      xlab	      It is the label on the horizontal axis.
-5.	      ylab	      It is the label on the vertical axis.
-6.	      xlim	      It is the limits of the x values which is used for plotting.
-7.    	ylim	      It is the limits of the values of y, which is used for plotting.
-8.	      axes	      It indicates whether both axes should be drawn on the plot.
+1.	 x	         It is the dataset whose values are the horizontal coordinates.
+2.	 y	         It is the dataset whose values are the vertical coordinates.
+3.  main	      It is the title of the graph.
+4.	 xlab	      It is the label on the horizontal axis.
+5.	 ylab	      It is the label on the vertical axis.
+6.	 xlim	      It is the limits of the x values which is used for plotting.
+7.  ylim	      It is the limits of the values of y, which is used for plotting.
+8.	 axes	      It indicates whether both axes should be drawn on the plot.
 
