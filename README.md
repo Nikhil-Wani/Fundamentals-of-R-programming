@@ -237,4 +237,8 @@ Factors are also data objects that are used to categorize the data and store it 
 
 Factors are created with the help of factor() function by taking a vector as an input parameter.
 
+# Data Visualization
 
+In R, we can create visually appealing data visualizations by writing few lines of code. For this purpose, we use the diverse functionalities of R. Data visualization is an efficient technique for gaining insight about data through a visual medium. With the help of visualization techniques, a human can easily obtain information about hidden patterns in data that might be neglected.
+
+By using the data visualization technique, we can work with large datasets to efficiently obtain key insights about it.
