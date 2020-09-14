@@ -314,23 +314,21 @@ Here,
 6.	      ylab	      It is used to describe the y-axis.
 7.	      xlim	      It is used to specify the range of values on the x-axis.
 8.	      ylim	      It is used to specify the range of values on the y-axis.
-9.	      breaks	   It is used to mention the width of each bar.
-</pre>
 
 <b>Line graph</b>
 
 A line chart is used to connect a series of points by drawing line segments between them. Line charts are used in identifying the trends in data. For line graph construction, R provides plot() function, which has the following syntax:
-<code>plot(v,type,col,xlab,ylab)</code>  
+
+<code>plot(v,type,col,xlab,ylab)  </code>
 
 Here,
-<pre>
+
 1.    	v	      It is a vector which contains the numeric values.
 2.	      type	   This parameter takes the value ?I? to draw only the lines or ?p? to draw only the points and "o" to draw both lines and points.
 3.	      xlab	   It is the label for the x-axis.
 4.	      ylab	   It is the label for the y-axis.
 5.	      main	   It is the title of the chart.
 6.	      col	   It is used to give the color for both the points and lines
-</pre>
 
 <b>Scatter plot</b>
 
