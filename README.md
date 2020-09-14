@@ -279,6 +279,7 @@ There is the following syntax of the pie() function:
 <code>pie(X, Labels, Radius, Main, Col, Clockwise)</code>
 
 Here,
+
 1. X is a vector that contains the numeric values used in the pie chart.
 2. Labels are used to give the description to the slices.
 3. Radius describes the radius of the pie chart.
@@ -288,15 +289,17 @@ Here,
 
 <b>Bar charts</b>
 
-In R, we can create a bar chart to visualize the data in an efficient manner. For this purpose, R provides the barplot() function, which has the following syntax:
+In R, we can create a bar chart to visualize the data in an efficient manner. For this purpose, R provides the barplot() function, 
+which has the following syntax:
+
 <code>barplot(h,x,y,main, names.arg,col)</code> 
 
-1.	      H	         A vector or matrix which contains numeric values used in the bar chart.
-2.	      xlab	      A label for the x-axis.
-3.	      ylab	      A label for the y-axis.
-4.	      main	      A title of the bar chart.
-5.	      names.arg	A vector of names that appear under each bar.
-6.	      col	      It is used to give colors to the bars in the graph.
+1. H	         A vector or matrix which contains numeric values used in the bar chart.
+2.	xlab	      A label for the x-axis.
+3.	ylab	      A label for the y-axis.
+4.	main	      A title of the bar chart.
+5. names.arg	A vector of names that appear under each bar.
+6.	col	      It is used to give colors to the bars in the graph.
 
 
 <b>Histogram</b>
@@ -306,14 +309,15 @@ For creating a histogram, R provides hist() function, which takes a vector as an
 <code>hist(v,main,xlab,ylab,xlim,ylim,breaks,col,border)</code>
 
 Here,
-1.    	v	         It is a vector that contains numeric values.
-2.	      main	      It indicates the title of the chart.
-3.    	col	      It is used to set the color of the bars.
-4.    	border   	It is used to set the border color of each bar.
-5.    	xlab	      It is used to describe the x-axis.
-6.	      ylab	      It is used to describe the y-axis.
-7.	      xlim	      It is used to specify the range of values on the x-axis.
-8.	      ylim	      It is used to specify the range of values on the y-axis.
+
+1. v	         It is a vector that contains numeric values.
+2.	main	      It indicates the title of the chart.
+3. col	      It is used to set the color of the bars.
+4. border   	It is used to set the border color of each bar.
+5. xlab	      It is used to describe the x-axis.
+6.	ylab	      It is used to describe the y-axis.
+7.	xlim	      It is used to specify the range of values on the x-axis.
+8.	ylim	      It is used to specify the range of values on the y-axis.
 
 <b>Line graph</b>
 
@@ -323,18 +327,19 @@ A line chart is used to connect a series of points by drawing line segments betw
 
 Here,
 
-1.    	v	      It is a vector which contains the numeric values.
-2.	      type	   This parameter takes the value ?I? to draw only the lines or ?p? to draw only the points and "o" to draw both lines and points.
-3.	      xlab	   It is the label for the x-axis.
-4.	      ylab	   It is the label for the y-axis.
-5.	      main	   It is the title of the chart.
-6.	      col	   It is used to give the color for both the points and lines
+1. v	      It is a vector which contains the numeric values.
+2.	type	   This parameter takes the value ?I? to draw only the lines or ?p? to draw only the points and "o" to draw both lines and points.
+3.	xlab	   It is the label for the x-axis.
+4.	ylab	   It is the label for the y-axis.
+5.	main	   It is the title of the chart.
+6.	col	   It is used to give the color for both the points and lines
 
 <b>Scatter plot</b>
 
 The scatter plots are used to compare variables. A comparison between variables is required when we need to define how much one variable is affected by another variable. In a scatterplot, the data is represented as a collection of points. Each point on the scatterplot defines the values of the two variables. One variable is selected for the vertical axis and other for the horizontal axis. In R, there are two ways of creating scatterplot, i.e., using plot() function and using the ggplot2 package's functions.
 
 There is the following syntax for creating scatterplot in R:
+
 <code>plot(x, y, main, xlab, ylab, xlim, ylim, axes) </code>
 
 Here,
