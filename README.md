@@ -218,7 +218,7 @@ Syntax
 
 The basic syntax of creating a matrix is as follows:
 
-matrix(data, no_row, no_col, by_row, dim_name)  
+<code>matrix(data, no_row, no_col, by_row, dim_name)</code>
 
 <b>Data Frames</b>
 
@@ -263,9 +263,89 @@ It is something where we can make a plot to appear. A graphics device is a windo
 
 There are some of the following points which are essential to understand:
 
-The functions of graphics devices produce output, which depends on the active graphics device.
-A screen is the default and most frequently used device.
-R graphical devices such as the PDF device, the JPEG device, etc. are used.
-We just need to open the graphics output device which we want. Therefore, R takes care of producing the type of output which is required by the device.
-For producing a certain plot on the screen or as a GIF R graphics file, the R code should exactly be the same. We only need to open the target output device before.
-Several devices can be open at the same time, but there will be only one active device.
+1. The functions of graphics devices produce output, which depends on the active graphics device.
+2. A screen is the default and most frequently used device.
+3. R graphical devices such as the PDF device, the JPEG device, etc. are used.
+4. We just need to open the graphics output device which we want. Therefore, R takes care of producing the type of output which is required by the device.
+5. For producing a certain plot on the screen or as a GIF R graphics file, the R code should exactly be the same. We only need to open the target output device before.
+6. Several devices can be open at the same time, but there will be only one active device.
+
+<b>Pie chart</b>
+
+The Pie charts are created with the help of pie () function, which takes positive numbers as vector input. Additional parameters are used to control labels, colors, titles, etc.
+
+There is the following syntax of the pie() function:
+<code>pie(X, Labels, Radius, Main, Col, Clockwise)</code>
+Here,
+1. X is a vector that contains the numeric values used in the pie chart.
+2. Labels are used to give the description to the slices.
+3. Radius describes the radius of the pie chart.
+4. Main describes the title of the chart.
+5. Col defines the color palette.
+6. Clockwise is a logical value that indicates the clockwise or anti-clockwise direction in which slices are drawn.
+
+<b>Bar charts</b>
+
+In R, we can create a bar chart to visualize the data in an efficient manner. For this purpose, R provides the barplot() function, which has the following syntax:
+<code>barplot(h,x,y,main, names.arg,col)</code> 
+<pre>
+S.No	Parameter	  Description
+1.	      H	         A vector or matrix which contains numeric values used in the bar chart.
+2.	      xlab	      A label for the x-axis.
+3.	      ylab	      A label for the y-axis.
+4.	      main	      A title of the bar chart.
+5.	      names.arg	A vector of names that appear under each bar.
+6.	      col	      It is used to give colors to the bars in the graph.
+</pre>
+
+<b>Histogram</b>
+
+For creating a histogram, R provides hist() function, which takes a vector as an input and uses more parameters to add more functionality. There is the following syntax of hist() function:
+<code>hist(v,main,xlab,ylab,xlim,ylim,breaks,col,border)</code>
+Here,
+<pre>
+S.No	Parameter	Description
+1.    	v	         It is a vector that contains numeric values.
+2.	      main	      It indicates the title of the chart.
+3.    	col	      It is used to set the color of the bars.
+4.    	border   	It is used to set the border color of each bar.
+5.    	xlab	      It is used to describe the x-axis.
+6.	      ylab	      It is used to describe the y-axis.
+7.	      xlim	      It is used to specify the range of values on the x-axis.
+8.	      ylim	      It is used to specify the range of values on the y-axis.
+9.	      breaks	   It is used to mention the width of each bar.
+</pre>
+
+<b>Line graph</b>
+
+A line chart is used to connect a series of points by drawing line segments between them. Line charts are used in identifying the trends in data. For line graph construction, R provides plot() function, which has the following syntax:
+<code>plot(v,type,col,xlab,ylab)</code>  
+Here,
+<pre>
+S.No	Parameter	Description
+1.    	v	      It is a vector which contains the numeric values.
+2.	      type	   This parameter takes the value ?I? to draw only the lines or ?p? to draw only the points and "o" to draw both lines and points.
+3.	      xlab	   It is the label for the x-axis.
+4.	      ylab	   It is the label for the y-axis.
+5.	      main	   It is the title of the chart.
+6.	      col	   It is used to give the color for both the points and lines
+</pre>
+
+<b>Scatter plot</b>
+
+The scatter plots are used to compare variables. A comparison between variables is required when we need to define how much one variable is affected by another variable. In a scatterplot, the data is represented as a collection of points. Each point on the scatterplot defines the values of the two variables. One variable is selected for the vertical axis and other for the horizontal axis. In R, there are two ways of creating scatterplot, i.e., using plot() function and using the ggplot2 package's functions.
+
+There is the following syntax for creating scatterplot in R:
+<code>plot(x, y, main, xlab, ylab, xlim, ylim, axes) </code>
+Here,
+<pre>
+S.No	Parameters	Description
+1.	      x	         It is the dataset whose values are the horizontal coordinates.
+2.	      y	         It is the dataset whose values are the vertical coordinates.
+3.    	main	      It is the title of the graph.
+4.	      xlab	      It is the label on the horizontal axis.
+5.	      ylab	      It is the label on the vertical axis.
+6.	      xlim	      It is the limits of the x values which is used for plotting.
+7.    	ylim	      It is the limits of the values of y, which is used for plotting.
+8.	      axes	      It indicates whether both axes should be drawn on the plot.
+</pre>
